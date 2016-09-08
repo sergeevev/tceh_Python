@@ -10,29 +10,29 @@ if q1 == 'python' or 'Python':
 elif:
     print('Ты точно был на занятии?')
 
-q1 = input('25 это int или float?')
-if q1 == 'int':
+q2 = input('25 это int или float?')
+if q2 == 'int':
     correct += 1
     print('Верно')
 elif:
     print('Не угадал...')
 
-q1 = input('Все в Python?')
-if q1 == 'Объект' or 'Object':
+q3 = input('Все в Python?')
+if q3 == 'Объект' or 'Object':
     correct += 1
     print('Верно')
 elif:
     print('Неа')
 
-q1 = input('"Неопределенная" константа в Python присваевается значением ...')
-if q1 == 'None' or 'none':
+q4 = input('"Неопределенная" константа в Python присваевается значением ...')
+if q4 == 'None' or 'none':
     correct += 1
     print('Верно')
 elif:
     print(' Прости, но нет')
 
-q1 = input('В какой кодировке символ из ASCII занимает 1 байт?')
-if q1 == 'UTF-8':
+q5 = input('В какой кодировке символ из ASCII занимает 1 байт?')
+if q5 == 'UTF-8':
     correct += 1
     print('Верно')
 elif:
